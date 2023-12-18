@@ -1924,6 +1924,16 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "AspireTemplate.RabbitMQ/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/AspireTemplate.RabbitMQ.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AspireTemplate.RabbitMQ.dll": {}
+        }
+      },
       "AspireTemplate.ServiceDefaults/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -5038,6 +5048,11 @@
       "path": "../AspireTemplate.ApiService/AspireTemplate.ApiService.csproj",
       "msbuildProject": "../AspireTemplate.ApiService/AspireTemplate.ApiService.csproj"
     },
+    "AspireTemplate.RabbitMQ/1.0.0": {
+      "type": "project",
+      "path": "../AspireTemplate.RabbitMQ/AspireTemplate.RabbitMQ.csproj",
+      "msbuildProject": "../AspireTemplate.RabbitMQ/AspireTemplate.RabbitMQ.csproj"
+    },
     "AspireTemplate.ServiceDefaults/1.0.0": {
       "type": "project",
       "path": "../AspireTemplate.ServiceDefaults/AspireTemplate.ServiceDefaults.csproj",
@@ -5053,6 +5068,7 @@
     "net8.0": [
       "Aspire.Hosting >= 8.0.0-preview.1.23557.2",
       "AspireTemplate.ApiService >= 1.0.0",
+      "AspireTemplate.RabbitMQ >= 1.0.0",
       "AspireTemplate.Web >= 1.0.0"
     ]
   },
@@ -5089,6 +5105,9 @@
           "projectReferences": {
             "D:\\Projects\\AspireTemplate\\AspireTemplate.ApiService\\AspireTemplate.ApiService.csproj": {
               "projectPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.ApiService\\AspireTemplate.ApiService.csproj"
+            },
+            "D:\\Projects\\AspireTemplate\\AspireTemplate.RabbitMQ\\AspireTemplate.RabbitMQ.csproj": {
+              "projectPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.RabbitMQ\\AspireTemplate.RabbitMQ.csproj"
             },
             "D:\\Projects\\AspireTemplate\\AspireTemplate.Web\\AspireTemplate.Web.csproj": {
               "projectPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.Web\\AspireTemplate.Web.csproj"
