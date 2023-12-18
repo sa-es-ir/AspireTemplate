@@ -169,7 +169,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Projects\\AspireTemplate\\AspireTemplate.ServiceDefaults\\AspireTemplate.ServiceDefaults.csproj": {
+                "projectPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.ServiceDefaults\\AspireTemplate.ServiceDefaults.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
