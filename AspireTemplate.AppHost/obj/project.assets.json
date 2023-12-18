@@ -5063,11 +5063,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\AspireTemplate1\\AspireTemplate\\AspireTemplate.AppHost\\AspireTemplate.AppHost.csproj",
+      "projectUniqueName": "D:\\Projects\\AspireTemplate\\AspireTemplate.AppHost\\AspireTemplate.AppHost.csproj",
       "projectName": "AspireTemplate.AppHost",
-      "projectPath": "D:\\Projects\\AspireTemplate1\\AspireTemplate\\AspireTemplate.AppHost\\AspireTemplate.AppHost.csproj",
+      "projectPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.AppHost\\AspireTemplate.AppHost.csproj",
       "packagesPath": "C:\\Users\\Saeed\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\AspireTemplate1\\AspireTemplate\\AspireTemplate.AppHost\\obj\\",
+      "outputPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.AppHost\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5087,11 +5087,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projects\\AspireTemplate1\\AspireTemplate\\AspireTemplate.ApiService\\AspireTemplate.ApiService.csproj": {
-              "projectPath": "D:\\Projects\\AspireTemplate1\\AspireTemplate\\AspireTemplate.ApiService\\AspireTemplate.ApiService.csproj"
+            "D:\\Projects\\AspireTemplate\\AspireTemplate.ApiService\\AspireTemplate.ApiService.csproj": {
+              "projectPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.ApiService\\AspireTemplate.ApiService.csproj"
             },
-            "D:\\Projects\\AspireTemplate1\\AspireTemplate\\AspireTemplate.Web\\AspireTemplate.Web.csproj": {
-              "projectPath": "D:\\Projects\\AspireTemplate1\\AspireTemplate\\AspireTemplate.Web\\AspireTemplate.Web.csproj"
+            "D:\\Projects\\AspireTemplate\\AspireTemplate.Web\\AspireTemplate.Web.csproj": {
+              "projectPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.Web\\AspireTemplate.Web.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JEmi2J+g0600RResEnUjLbclJC1/YOyp5mUAjhim6QryzpMtkUaMrWZvZMiZFQ3I3zOC69TQObz1fzTnM4xbag==",
+  "dgSpecHash": "b9DflKTOYVGB/rVApMRHZXZbRdMXDlf7R2IxWJoX5P9mb1AHRuDISwGgDeejDbYxUTdz8Y8SS9pNd+mbD3PkVg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\AspireTemplate1\\AspireTemplate\\AspireTemplate.ServiceDefaults\\AspireTemplate.ServiceDefaults.csproj",
+  "projectFilePath": "D:\\Projects\\AspireTemplate\\AspireTemplate.ServiceDefaults\\AspireTemplate.ServiceDefaults.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Saeed\\.nuget\\packages\\google.protobuf\\3.22.5\\google.protobuf.3.22.5.nupkg.sha512",
     "C:\\Users\\Saeed\\.nuget\\packages\\grpc.core.api\\2.52.0\\grpc.core.api.2.52.0.nupkg.sha512",

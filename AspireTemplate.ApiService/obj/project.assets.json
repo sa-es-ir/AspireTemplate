@@ -2446,11 +2446,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\AspireTemplate1\\AspireTemplate\\AspireTemplate.ApiService\\AspireTemplate.ApiService.csproj",
+      "projectUniqueName": "D:\\Projects\\AspireTemplate\\AspireTemplate.ApiService\\AspireTemplate.ApiService.csproj",
       "projectName": "AspireTemplate.ApiService",
-      "projectPath": "D:\\Projects\\AspireTemplate1\\AspireTemplate\\AspireTemplate.ApiService\\AspireTemplate.ApiService.csproj",
+      "projectPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.ApiService\\AspireTemplate.ApiService.csproj",
       "packagesPath": "C:\\Users\\Saeed\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\AspireTemplate1\\AspireTemplate\\AspireTemplate.ApiService\\obj\\",
+      "outputPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.ApiService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2470,8 +2470,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projects\\AspireTemplate1\\AspireTemplate\\AspireTemplate.ServiceDefaults\\AspireTemplate.ServiceDefaults.csproj": {
-              "projectPath": "D:\\Projects\\AspireTemplate1\\AspireTemplate\\AspireTemplate.ServiceDefaults\\AspireTemplate.ServiceDefaults.csproj"
+            "D:\\Projects\\AspireTemplate\\AspireTemplate.ServiceDefaults\\AspireTemplate.ServiceDefaults.csproj": {
+              "projectPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.ServiceDefaults\\AspireTemplate.ServiceDefaults.csproj"
             }
           }
         }

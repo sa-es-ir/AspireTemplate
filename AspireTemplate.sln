@@ -10,6 +10,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireTemplate.ApiService",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireTemplate.Web", "AspireTemplate.Web\AspireTemplate.Web.csproj", "{C04DF4D7-C96E-46B1-B4F3-2B2AEE2DA271}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireTemplate.RabbitMQ", "AspireTemplate.RabbitMQ\AspireTemplate.RabbitMQ.csproj", "{C3B080A3-2B08-420B-81D3-BBA8AE849499}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{C04DF4D7-C96E-46B1-B4F3-2B2AEE2DA271}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C04DF4D7-C96E-46B1-B4F3-2B2AEE2DA271}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C04DF4D7-C96E-46B1-B4F3-2B2AEE2DA271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B080A3-2B08-420B-81D3-BBA8AE849499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B080A3-2B08-420B-81D3-BBA8AE849499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B080A3-2B08-420B-81D3-BBA8AE849499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B080A3-2B08-420B-81D3-BBA8AE849499}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

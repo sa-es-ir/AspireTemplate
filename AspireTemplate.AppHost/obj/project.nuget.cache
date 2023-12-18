@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c0x3AAl8fNuKqR8WuDQvVbDtFSA6xc4Gc4KyDXEbNWUi6wsFnc36IILL08vHx02K21+Tki6g1/r+NZ5irLcEYQ==",
+  "dgSpecHash": "F04lqG17fu/nrM52ZEW5QC3vFZttZ7sN8NZE4+8sVTPMOFvPL876ZLq2ZUog05OcH8Tro4t45vyu5Hj8vDBL5w==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\AspireTemplate1\\AspireTemplate\\AspireTemplate.AppHost\\AspireTemplate.AppHost.csproj",
+  "projectFilePath": "D:\\Projects\\AspireTemplate\\AspireTemplate.AppHost\\AspireTemplate.AppHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Saeed\\.nuget\\packages\\aspire.dashboard\\8.0.0-preview.1.23557.2\\aspire.dashboard.8.0.0-preview.1.23557.2.nupkg.sha512",
     "C:\\Users\\Saeed\\.nuget\\packages\\aspire.hosting\\8.0.0-preview.1.23557.2\\aspire.hosting.8.0.0-preview.1.23557.2.nupkg.sha512",
