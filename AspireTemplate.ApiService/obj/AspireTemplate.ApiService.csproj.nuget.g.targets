@@ -6,5 +6,6 @@
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.binder\8.0.0\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.Binder.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.binder\8.0.0\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.Binder.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.telemetry.abstractions\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Telemetry.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.telemetry.abstractions\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Telemetry.Abstractions.targets')" />
+    <Import Project="$(NuGetPackageRoot)aspire.rabbitmq.client\8.0.0-preview.1.23557.2\buildTransitive\net8.0\Aspire.RabbitMQ.Client.targets" Condition="Exists('$(NuGetPackageRoot)aspire.rabbitmq.client\8.0.0-preview.1.23557.2\buildTransitive\net8.0\Aspire.RabbitMQ.Client.targets')" />
   </ImportGroup>
 </Project>
