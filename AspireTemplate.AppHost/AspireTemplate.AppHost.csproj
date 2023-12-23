@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AspireTemplate.ApiService\AspireTemplate.ApiService.csproj" />
+    <ProjectReference Include="..\AspireTemplate.RabbitMQConsumers\AspireTemplate.RabbitMQConsumers.csproj" />
     <ProjectReference Include="..\AspireTemplate.Web\AspireTemplate.Web.csproj" />
   </ItemGroup>
 
