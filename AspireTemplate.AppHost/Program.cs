@@ -9,7 +9,7 @@ var apiservice = builder.AddProject<Projects.AspireTemplate_ApiService>("apiserv
 builder.AddProject<Projects.AspireTemplate_Web>("webfrontend")
     .WithReference(apiservice);
 
-builder.AddProject<Projects.AspireTemplate_RabbitMQConsumers>("consumers")
+builder.AddProject<Projects.RabbitMQConsumers>("consumers")
     .WithReference(rabbit);
 
 builder.Build().Run();

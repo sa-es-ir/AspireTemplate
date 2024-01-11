@@ -2067,22 +2067,6 @@
           "bin/placeholder/AspireTemplate.Common.dll": {}
         }
       },
-      "AspireTemplate.RabbitMQConsumers/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Aspire.RabbitMQ.Client": "8.0.0-preview.1.23557.2",
-          "AspireTemplate.Common": "1.0.0",
-          "AspireTemplate.ServiceDefaults": "1.0.0",
-          "Microsoft.Extensions.Hosting": "8.0.0"
-        },
-        "compile": {
-          "bin/placeholder/AspireTemplate.RabbitMQConsumers.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AspireTemplate.RabbitMQConsumers.dll": {}
-        }
-      },
       "AspireTemplate.ServiceDefaults/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2121,6 +2105,22 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "RabbitMQConsumers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Aspire.RabbitMQ.Client": "8.0.0-preview.1.23557.2",
+          "AspireTemplate.Common": "1.0.0",
+          "AspireTemplate.ServiceDefaults": "1.0.0",
+          "Microsoft.Extensions.Hosting": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RabbitMQConsumers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RabbitMQConsumers.dll": {}
+        }
       }
     }
   },
@@ -5363,11 +5363,6 @@
       "path": "../AspireTemplate.Common/AspireTemplate.Common.csproj",
       "msbuildProject": "../AspireTemplate.Common/AspireTemplate.Common.csproj"
     },
-    "AspireTemplate.RabbitMQConsumers/1.0.0": {
-      "type": "project",
-      "path": "../AspireTemplate.RabbitMQConsumers/AspireTemplate.RabbitMQConsumers.csproj",
-      "msbuildProject": "../AspireTemplate.RabbitMQConsumers/AspireTemplate.RabbitMQConsumers.csproj"
-    },
     "AspireTemplate.ServiceDefaults/1.0.0": {
       "type": "project",
       "path": "../AspireTemplate.ServiceDefaults/AspireTemplate.ServiceDefaults.csproj",
@@ -5377,40 +5372,47 @@
       "type": "project",
       "path": "../AspireTemplate.Web/AspireTemplate.Web.csproj",
       "msbuildProject": "../AspireTemplate.Web/AspireTemplate.Web.csproj"
+    },
+    "RabbitMQConsumers/1.0.0": {
+      "type": "project",
+      "path": "../AspireTemplate.Components/RabbitMQConsumers/RabbitMQConsumers.csproj",
+      "msbuildProject": "../AspireTemplate.Components/RabbitMQConsumers/RabbitMQConsumers.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Aspire.Hosting >= 8.0.0-preview.1.23557.2",
       "AspireTemplate.ApiService >= 1.0.0",
-      "AspireTemplate.RabbitMQConsumers >= 1.0.0",
-      "AspireTemplate.Web >= 1.0.0"
+      "AspireTemplate.Web >= 1.0.0",
+      "RabbitMQConsumers >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Saeed\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Saeed(Saeed)Esmaeeli\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\AspireTemplate\\AspireTemplate.AppHost\\AspireTemplate.AppHost.csproj",
+      "projectUniqueName": "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.AppHost\\AspireTemplate.AppHost.csproj",
       "projectName": "AspireTemplate.AppHost",
-      "projectPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.AppHost\\AspireTemplate.AppHost.csproj",
-      "packagesPath": "C:\\Users\\Saeed\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.AppHost\\obj\\",
+      "projectPath": "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.AppHost\\AspireTemplate.AppHost.csproj",
+      "packagesPath": "C:\\Users\\Saeed(Saeed)Esmaeeli\\.nuget\\packages\\",
+      "outputPath": "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.AppHost\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Saeed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Saeed(Saeed)Esmaeeli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -5418,14 +5420,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projects\\AspireTemplate\\AspireTemplate.ApiService\\AspireTemplate.ApiService.csproj": {
-              "projectPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.ApiService\\AspireTemplate.ApiService.csproj"
+            "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.ApiService\\AspireTemplate.ApiService.csproj": {
+              "projectPath": "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.ApiService\\AspireTemplate.ApiService.csproj"
             },
-            "D:\\Projects\\AspireTemplate\\AspireTemplate.RabbitMQConsumers\\AspireTemplate.RabbitMQConsumers.csproj": {
-              "projectPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.RabbitMQConsumers\\AspireTemplate.RabbitMQConsumers.csproj"
+            "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.Components\\RabbitMQConsumers\\RabbitMQConsumers.csproj": {
+              "projectPath": "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.Components\\RabbitMQConsumers\\RabbitMQConsumers.csproj"
             },
-            "D:\\Projects\\AspireTemplate\\AspireTemplate.Web\\AspireTemplate.Web.csproj": {
-              "projectPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.Web\\AspireTemplate.Web.csproj"
+            "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.Web\\AspireTemplate.Web.csproj": {
+              "projectPath": "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.Web\\AspireTemplate.Web.csproj"
             }
           }
         }
@@ -5461,7 +5463,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

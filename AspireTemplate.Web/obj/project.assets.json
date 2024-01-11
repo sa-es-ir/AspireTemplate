@@ -2440,29 +2440,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Saeed\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Saeed(Saeed)Esmaeeli\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\AspireTemplate\\AspireTemplate.Web\\AspireTemplate.Web.csproj",
+      "projectUniqueName": "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.Web\\AspireTemplate.Web.csproj",
       "projectName": "AspireTemplate.Web",
-      "projectPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.Web\\AspireTemplate.Web.csproj",
-      "packagesPath": "C:\\Users\\Saeed\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.Web\\obj\\",
+      "projectPath": "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.Web\\AspireTemplate.Web.csproj",
+      "packagesPath": "C:\\Users\\Saeed(Saeed)Esmaeeli\\.nuget\\packages\\",
+      "outputPath": "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Saeed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Saeed(Saeed)Esmaeeli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -2470,8 +2472,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projects\\AspireTemplate\\AspireTemplate.ServiceDefaults\\AspireTemplate.ServiceDefaults.csproj": {
-              "projectPath": "D:\\Projects\\AspireTemplate\\AspireTemplate.ServiceDefaults\\AspireTemplate.ServiceDefaults.csproj"
+            "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.ServiceDefaults\\AspireTemplate.ServiceDefaults.csproj": {
+              "projectPath": "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.ServiceDefaults\\AspireTemplate.ServiceDefaults.csproj"
             }
           }
         }
@@ -2504,7 +2506,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
