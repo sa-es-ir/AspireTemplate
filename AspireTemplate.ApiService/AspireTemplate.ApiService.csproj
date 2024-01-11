@@ -13,6 +13,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\AspireTemplate.Common\AspireTemplate.Common.csproj" />
+		<ProjectReference Include="..\AspireTemplate.Components\Redis.Cache\Redis.Cache.csproj" />
 		<ProjectReference Include="..\AspireTemplate.ServiceDefaults\AspireTemplate.ServiceDefaults.csproj" />
 	</ItemGroup>
 

@@ -36,6 +36,9 @@
               "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.Common\\AspireTemplate.Common.csproj": {
                 "projectPath": "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.Common\\AspireTemplate.Common.csproj"
               },
+              "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.Components\\Redis.Cache\\Redis.Cache.csproj": {
+                "projectPath": "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.Components\\Redis.Cache\\Redis.Cache.csproj"
+              },
               "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.ServiceDefaults\\AspireTemplate.ServiceDefaults.csproj": {
                 "projectPath": "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.ServiceDefaults\\AspireTemplate.ServiceDefaults.csproj"
               }
@@ -120,6 +123,72 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.Components\\Redis.Cache\\Redis.Cache.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.Components\\Redis.Cache\\Redis.Cache.csproj",
+        "projectName": "Redis.Cache",
+        "projectPath": "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.Components\\Redis.Cache\\Redis.Cache.csproj",
+        "packagesPath": "C:\\Users\\Saeed(Saeed)Esmaeeli\\.nuget\\packages\\",
+        "outputPath": "C:\\Examples\\my-git\\AspireTemplate\\AspireTemplate.Components\\Redis.Cache\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Saeed(Saeed)Esmaeeli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Aspire.StackExchange.Redis": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23619.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
