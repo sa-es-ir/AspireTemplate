@@ -2,15 +2,12 @@ var builder = DistributedApplication.CreateBuilder(args);
 
 var rabbit = builder.AddRabbitMQContainer("messaging", password: "aspire");
 
-var redis = builder.AddRedisContainer("rediscache");
-
-var apiservice = builder.AddProject<Projects.AspireTemplate_ApiService>("apiservice")
-    .WithReference(rabbit)
-    .WithReference(redis);
+var apiService = builder.AddProject<Projects.AspireTemplate_ApiService>("apiservice")
+    .WithReference(rabbit);
 
 
 builder.AddProject<Projects.AspireTemplate_Web>("webfrontend")
-    .WithReference(apiservice);
+    .WithReference(apiService);
 
 builder.AddProject<Projects.RabbitMQConsumers>("consumers")
     .WithReference(rabbit);

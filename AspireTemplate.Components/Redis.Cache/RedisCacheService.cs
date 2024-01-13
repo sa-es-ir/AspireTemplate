@@ -29,8 +29,8 @@ public class RedisCacheService(IConnectionMultiplexer redis)
         return JsonSerializer.Deserialize<T>(data!, jsonSerializerOptions);
     }
 
-    public async Task SaveAsync<T>(string key, T value) where T : class
+    public async Task SaveAsync<T>(string key, T value, TimeSpan expiry) where T : class
     {
-        await _database.StringSetAsync(key, JsonSerializer.Serialize(value, jsonSerializerOptions));
+        await _database.StringSetAsync(key, JsonSerializer.Serialize(value, jsonSerializerOptions), expiry);
     }
 }

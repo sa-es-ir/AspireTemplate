@@ -1,7 +1,5 @@
 using AspireTemplate.Common;
-using Microsoft.AspNetCore.Mvc;
 using RabbitMQ.Client;
-using Redis.Cache;
 using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,12 +9,10 @@ builder.AddServiceDefaults();
 
 builder.AddRabbitMQ("messaging");
 
-builder.AddRedis("rediscache");
-
-builder.Services.AddRedisCacheService();
 
 // Add services to the container.
 builder.Services.AddProblemDetails();
+
 
 var app = builder.Build();
 
@@ -28,16 +24,9 @@ var summaries = new[]
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
 
-app.MapGet("/weatherforecast", async ([FromServices] RedisCacheService redisCache) =>
+app.MapGet("/weatherforecast", () =>
 {
-    Console.WriteLine("try get from cache");
-    var forecast = await redisCache.GetAsync<WeatherForecast[]>("test");
-
-    if (forecast is { Length: > 0 })
-        return forecast;
-
-    Console.WriteLine("not any from cache");
-    forecast = Enumerable.Range(1, 5).Select(index =>
+    var forecast = Enumerable.Range(1, 5).Select(index =>
         new WeatherForecast
         (
             DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
@@ -45,8 +34,6 @@ app.MapGet("/weatherforecast", async ([FromServices] RedisCacheService redisCach
             summaries[Random.Shared.Next(summaries.Length)]
         ))
         .ToArray();
-
-    await redisCache.SaveAsync("test", forecast);
 
     return forecast;
 });
