@@ -1,3 +1,5 @@
+<p align="center"><img src="dotnet-aspire-logo.png" width="150"></p>
+
 # .NET Aspire Template for all components
 In this repo, we are trying to use all .NET Aspire components with complete code.
 
