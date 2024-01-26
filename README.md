@@ -10,4 +10,4 @@ In this repo, we are trying to use all .NET Aspire components with complete code
 |**RabbitMQ**|:white_check_mark:|[Watch here](https://youtu.be/sOBqIleKiFo)|
 |**Redis**|:white_check_mark:|-|
 |**PostgreSQL**|to-do|-|
-|**CosmosDb**|to-d|-|
+|**CosmosDb**|to-do|-|
