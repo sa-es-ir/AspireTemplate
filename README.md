@@ -9,5 +9,5 @@ In this repo, we are trying to use all .NET Aspire components with complete code
 |---|---|---|---|
 |**RabbitMQ**|:white_check_mark:|[Components/RabbitMQ](AspireTemplate.Components/RabbitMQConsumers)|[Watch here](https://youtu.be/sOBqIleKiFo)|
 |**Redis**|:white_check_mark:|[Components/Redis](AspireTemplate.Components/Redis.Cache)|[Watch here](https://youtu.be/W5o5ot17uUY)|
-|**PostgreSQL**|to-do||-|
+|**PostgreSQL**|on-doing||-|
 |**CosmosDb**|to-do||-|
