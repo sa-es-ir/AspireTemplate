@@ -5,6 +5,8 @@ In this repo, we are trying to use all .NET Aspire components with complete code
 
 ---
 
+### See my presentation about .NET Aspire: [Seven Peaks Speaks: .NET Aspire, the all-in-one solution! ](hqdefault.jpg)
+
 Before checking the code you need to watch this video: 
 
 **.NET Aspire: How does it work behind the scenes?**
